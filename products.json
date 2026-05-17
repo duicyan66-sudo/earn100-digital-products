@@ -3,11 +3,13 @@
     "code": "AI-DEVOPS-PRO",
     "name_en": "AI DevOps Pro Pack",
     "name_zh": "AI DevOps Pro Pack",
-    "price": "$4.9 / ¥29.9",
+    "price": "$4.90 / ¥29.9",
     "audience": "developers",
     "line_en": "A working kit for repo context, agent review, and prompt regression.",
     "line_zh": "给日常使用 coding agent 的开发者：整理仓库上下文、审查输出、做提示词回归。",
-    "zip": "downloads/AI-DEVOPS-PRO_paid_encrypted.zip"
+    "zip": "downloads/AI-DEVOPS-PRO_paid_encrypted.zip",
+    "paypal_url": "https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL",
+    "checkout_status": "direct_paypal"
   },
   {
     "code": "CR-AGENT-PRO",
@@ -17,7 +19,8 @@
     "audience": "senior",
     "line_en": "A stricter review system for senior engineers who do not trust pretty diffs.",
     "line_zh": "给资深工程师的代码审查包：不看“像不像对”，只追风险、边界和可回滚性。",
-    "zip": "downloads/CR-AGENT-PRO_paid_encrypted.zip"
+    "zip": "downloads/CR-AGENT-PRO_paid_encrypted.zip",
+    "checkout_status": "manual_request"
   },
   {
     "code": "AGENT-DEBUG-PRO",
@@ -27,7 +30,8 @@
     "audience": "senior",
     "line_en": "For teams debugging Claude Code, Codex, Cursor, OpenCode, and weird agent loops.",
     "line_zh": "给会折腾 agent 的技术用户：定位跑偏、循环、误改、测试假绿和上下文污染。",
-    "zip": "downloads/AGENT-DEBUG-PRO_paid_encrypted.zip"
+    "zip": "downloads/AGENT-DEBUG-PRO_paid_encrypted.zip",
+    "checkout_status": "manual_request"
   },
   {
     "code": "CONTEXT-ENGINEERING-PRO",
@@ -37,7 +41,8 @@
     "audience": "senior",
     "line_en": "A context design kit for people who care what goes into the model before code comes out.",
     "line_zh": "给真正关心上下文质量的人：把仓库、约束、任务和验证路径打包给 agent。",
-    "zip": "downloads/CONTEXT-ENGINEERING-PRO_paid_encrypted.zip"
+    "zip": "downloads/CONTEXT-ENGINEERING-PRO_paid_encrypted.zip",
+    "checkout_status": "manual_request"
   },
   {
     "code": "PROMPT-REGRESSION-PRO",
@@ -47,6 +52,7 @@
     "audience": "developers",
     "line_en": "A lightweight way to stop prompt changes from silently making agents worse.",
     "line_zh": "给写提示词和 agent workflow 的人：别凭感觉改 prompt，用用例和检查表卡住退化。",
-    "zip": "downloads/PROMPT-REGRESSION-PRO_paid_encrypted.zip"
+    "zip": "downloads/PROMPT-REGRESSION-PRO_paid_encrypted.zip",
+    "checkout_status": "manual_request"
   }
 ]

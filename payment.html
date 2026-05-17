@@ -4,42 +4,50 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Payment | AI DevOps Kit</title>
-  <meta name="description" content="Payment and manual delivery notes for AI DevOps Kit paid packs.">
+  <meta name="description" content="PayPal checkout and delivery instructions for AI DevOps Pro Pack.">
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="index.html"><span class="mark">AI</span><span>DevOps Kit</span></a>
-    <a class="button ghost" href="index.html">Back</a>
-  </header>
-  <main class="wrap section">
+  <header class="topbar"><a class="brand" href="index.html"><span class="mark">AI</span><span>DevOps Kit</span></a><a class="button ghost" href="index.html">Back</a></header>
+  <main class="wrap section narrow">
     <p class="eyebrow">payment</p>
-    <h1 style="font-size:clamp(40px,6vw,68px);letter-spacing:-3px;line-height:1;margin:0 0 24px">Manual checkout for now.</h1>
-    <p class="hero-copy" style="margin-left:0">The files are downloadable as encrypted ZIPs. Payment unlocks the password. GitHub Pages is static, so payment confirmation happens through Telegram.</p>
+    <h1 class="page-title">PayPal checkout for AI-DEVOPS-PRO.</h1>
+    <p class="hero-copy left">This is a digital product. Use PayPal, then send the receipt to Telegram so the encrypted ZIP password can be delivered manually.</p>
 
-    <div class="grid two" style="margin-top:32px">
+    <article class="product-card featured checkout-card">
+      <div class="product-top"><span class="pill">AI-DEVOPS-PRO</span><strong>$4.90 USD</strong></div>
+      <h2>AI DevOps Pro Pack</h2>
+      <p>One-time purchase. No subscription. No shipping address needed.</p>
+      <div class="product-actions"><a class="button primary" href="https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL">Pay with PayPal — $4.90</a><a class="button ghost" href="payment-success.html">I already paid</a></div>
+    </article>
+
+    <div class="grid two" style="margin-top:24px">
       <article class="card">
-        <span class="pill">international buyers</span>
-        <h3>PayPal / Wise request</h3>
-        <p>For AI-DEVOPS-PRO, use the direct PayPal link: <a href="https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL">PayPal $4.90</a>. After payment, send the receipt and product code to <a href="https://t.me/xi_yh_bot">@xi_yh_bot</a>. For other packs, message Telegram first and ask for PayPal or Wise.</p>
-        <pre><code>Hi, I want to buy: PROMPT-REGRESSION-PRO
-Payment link: https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL</code></pre>
+        <span class="pill">send this after payment</span>
+        <h3>Message template</h3>
+        <pre><code>Hi, I bought AI-DEVOPS-PRO.
+PayPal receipt: attached
+Telegram username: @your_username
+Please send the ZIP password.</code></pre>
+        <p><a class="button ghost" href="https://t.me/xi_yh_bot">Open @xi_yh_bot</a></p>
       </article>
       <article class="card">
-        <span class="pill">china buyers</span>
-        <h3>QR payment</h3>
-        <p>If your payment app supports the QR code on the homepage, use it. Then send the product code and payment screenshot to <a href="https://t.me/xi_yh_bot">@xi_yh_bot</a>.</p>
-        <pre><code>我要购买：AI-DEVOPS-PRO
-我已付款，截图如下。</code></pre>
+        <span class="pill">delivery promise</span>
+        <h3>What happens next</h3>
+        <ul class="clean-list">
+          <li>Payment is checked manually because GitHub Pages cannot verify PayPal.</li>
+          <li>Typical delivery window: within 12 hours.</li>
+          <li>You receive the password for <code>AI-DEVOPS-PRO_paid_encrypted.zip</code>.</li>
+        </ul>
       </article>
     </div>
 
     <div class="card" style="margin-top:24px">
-      <span class="pill">safe checkout notes</span>
+      <span class="pill">buyer safety</span>
       <h3>Do not send secrets</h3>
-      <p>Do not send passwords, seed phrases, private keys, PayPal/Wise login details, bank-card passwords, or identity documents. A product code and payment receipt are enough.</p>
-      <p><a href="docs/order-guide.md">Read the order guide</a></p>
+      <p>Only send product code and payment receipt. Do not send PayPal password, OTP, ID documents, bank-card password, private keys, or seed phrases.</p>
+      <p><a href="docs/order-guide.md">Read the full order guide</a></p>
     </div>
   </main>
 </body>

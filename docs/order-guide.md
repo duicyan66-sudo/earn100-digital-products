@@ -1,38 +1,34 @@
 # Order guide
 
-GitHub Pages cannot verify payments. The current checkout is manual on purpose.
+GitHub Pages cannot verify PayPal payments automatically, so delivery is manual and receipt-based.
 
-## International buyer payment
+## Recommended path: AI-DEVOPS-PRO
 
-For `AI-DEVOPS-PRO`, pay here first:
-
-https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL
-
-Then send the receipt to Telegram: [@xi_yh_bot](https://t.me/xi_yh_bot)
-
-```text
-Hi, I want to buy: <PRODUCT_CODE>
-Payment link: https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL
-GitHub repo: https://github.com/duicyan66-sudo/earn100-digital-products
-```
-
-After payment, send the receipt or screenshot. The zip password is sent after confirmation.
-
-## China buyer message
+1. Pay with PayPal: https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL
+2. Download the encrypted file: `https://duicyan66-sudo.github.io/earn100-digital-products/downloads/AI-DEVOPS-PRO_paid_encrypted.zip`
+3. Message Telegram: [@xi_yh_bot](https://t.me/xi_yh_bot)
+4. Send this:
 
 ```text
-我要购买：<产品代码>
-我已付款，截图如下。
+Hi, I bought AI-DEVOPS-PRO.
+PayPal receipt: attached
+Please send the ZIP password.
 ```
+
+Typical delivery window: within 12 hours after receipt confirmation.
 
 ## Product codes
 
-- `AI-DEVOPS-PRO` - $4.9 / ¥29.9
-- `CR-AGENT-PRO` - $5.9 / ¥39.9
-- `AGENT-DEBUG-PRO` - $6.9 / ¥49.9
-- `CONTEXT-ENGINEERING-PRO` - $8.9 / ¥59.9
-- `PROMPT-REGRESSION-PRO` - $9.9 / ¥69.9
+- `AI-DEVOPS-PRO` - $4.90 - direct PayPal checkout available
+- `CR-AGENT-PRO` - $5.90 - request payment link on Telegram
+- `AGENT-DEBUG-PRO` - $6.90 - request payment link on Telegram
+- `CONTEXT-ENGINEERING-PRO` - $8.90 - request payment link on Telegram
+- `PROMPT-REGRESSION-PRO` - $9.90 - request payment link on Telegram
+
+## Why only one direct PayPal link right now?
+
+The public PayPal checkout link currently maps to `AI-DEVOPS-PRO`. Using it for other products would create confusion and manual errors. Separate PayPal links should be created for each paid pack before those products get direct checkout buttons.
 
 ## What not to send
 
-Do not send passwords, private keys, seed phrases, bank-card passwords, or PayPal/Wise login details. A receipt is enough.
+Do not send PayPal passwords, OTP codes, bank-card passwords, seed phrases, private keys, identity documents, or login screenshots. A product code and receipt are enough.

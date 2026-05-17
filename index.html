@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AI DevOps Kit | Coding agent workflow packs</title>
-  <meta name="description" content="Bilingual GitHub storefront for AI DevOps Kit: free tools and paid packs for coding agent workflows." />
+  <meta name="description" content="Free coding-agent tools and a paid AI DevOps Pro Pack with PayPal checkout and manual delivery." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -14,24 +14,24 @@
   <header class="topbar">
     <a class="brand" href="#top" aria-label="AI DevOps Kit home"><span class="mark">AI</span><span>DevOps Kit</span></a>
     <nav class="nav">
-      <a href="#free" data-i18n="nav_free">免费工具</a>
-      <a href="#products" data-i18n="nav_products">付费产品</a>
-      <a href="#github" data-i18n="nav_github">GitHub 运营</a>
+      <a href="#free" data-i18n="nav_free">Free tools</a>
+      <a href="#buy" data-i18n="nav_buy">Buy</a>
       <a href="payment.html" data-i18n="nav_payment">Payment</a>
-      <a href="contact.html" data-i18n="nav_delivery">交付</a>
+      <a href="contact.html" data-i18n="nav_delivery">Delivery</a>
     </nav>
     <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">中文</button>
   </header>
 
   <main id="top">
     <section class="hero wrap">
-      <p class="eyebrow" data-i18n="eyebrow">给 GitHub 开发者的 coding agent 工具包</p>
-      <h1 data-i18n="hero_title">别把整个仓库乱塞给 AI。把上下文、审查和回归测试做成工程流程。</h1>
-      <p class="hero-copy" data-i18n="hero_copy">这里有可运行的免费脚本，也有给资深开发者的付费包。它们不卖玄学，卖的是更少的误改、更快的审查、更稳的 agent 工作流。</p>
+      <p class="eyebrow" data-i18n="eyebrow">Coding-agent workflow kit for GitHub developers</p>
+      <h1 data-i18n="hero_title">Package repo context, reviews, and prompt regression like an engineering workflow.</h1>
+      <p class="hero-copy" data-i18n="hero_copy">Start with the free CLI tools. If you want the ready-made templates and checklists, buy the AI DevOps Pro Pack with PayPal and receive the ZIP password through Telegram after confirmation.</p>
       <div class="hero-actions">
-        <a class="button primary" href="#products" data-i18n="cta_products">看付费产品</a>
-        <a class="button ghost" href="https://github.com/duicyan66-sudo/earn100-digital-products" data-i18n="cta_github">打开 GitHub 仓库</a>
+        <a class="button primary" href="https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL" data-i18n="cta_pay">Buy AI DevOps Pro — PayPal $4.90</a>
+        <a class="button ghost" href="downloads/AI-DEVOPS-PRO_paid_encrypted.zip" data-i18n="cta_zip">Download encrypted ZIP first</a>
       </div>
+      <p class="microcopy" data-i18n="hero_micro">After payment: send receipt + product code <code>AI-DEVOPS-PRO</code> to <a href="https://t.me/xi_yh_bot">@xi_yh_bot</a>. Typical delivery: within 12 hours.</p>
       <div class="terminal-card" aria-label="example terminal">
         <div class="terminal-head"><span></span><span></span><span></span></div>
         <pre><code>$ python tools/repo_context_pack.py --root . --out repo-context.md
@@ -44,104 +44,74 @@ report written: prompt-report.md</code></pre>
 
     <section class="strip">
       <div class="wrap stats">
-        <div><strong>5</strong><span data-i18n="stat_paid">个付费包</span></div>
-        <div><strong>2</strong><span data-i18n="stat_tools">个免费 CLI 工具</span></div>
-        <div><strong>¥29.9+</strong><span data-i18n="stat_price">低价起步，先跑通销售</span></div>
+        <div><strong>$4.90</strong><span data-i18n="stat_price">one-time PayPal checkout</span></div>
+        <div><strong>12h</strong><span data-i18n="stat_delivery">typical manual delivery window</span></div>
+        <div><strong>2</strong><span data-i18n="stat_tools">free CLI tools included in repo</span></div>
+      </div>
+    </section>
+
+    <section id="buy" class="wrap section">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="buy_label">fast checkout</p>
+        <h2 data-i18n="buy_title">The shortest path: pay, message, unlock.</h2>
+        <p data-i18n="buy_copy">The current public PayPal link is for AI-DEVOPS-PRO. Other packs remain visible as upcoming/manual products, but the smooth checkout path starts here.</p>
+      </div>
+
+      <article class="product-card featured checkout-card">
+        <div class="product-top"><span class="pill">AI-DEVOPS-PRO</span><strong>$4.90</strong></div>
+        <h3>AI DevOps Pro Pack</h3>
+        <p data-i18n="p1">A practical pack for developers using coding agents: repo context checklists, agent review prompts, debugging notes, and prompt-regression templates.</p>
+        <ul class="clean-list">
+          <li data-i18n="includes1">Encrypted ZIP is downloadable before payment.</li>
+          <li data-i18n="includes2">PayPal checkout is one-time, no subscription.</li>
+          <li data-i18n="includes3">Password is sent after receipt confirmation.</li>
+        </ul>
+        <div class="product-actions">
+          <a class="button primary" href="https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL" data-i18n="buy_paypal">PayPal checkout — $4.90</a>
+          <a class="button ghost" href="payment-success.html" data-i18n="after_pay">I already paid</a>
+          <a class="button ghost" href="downloads/AI-DEVOPS-PRO_paid_encrypted.zip" data-i18n="download_zip">Download encrypted ZIP</a>
+        </div>
+      </article>
+
+      <div class="grid three step-grid" aria-label="checkout steps">
+        <article class="card"><span class="step">1</span><h3 data-i18n="step1_title">Pay</h3><p data-i18n="step1_copy">Use the PayPal button for AI-DEVOPS-PRO. No shipping address is needed because this is a digital product.</p></article>
+        <article class="card"><span class="step">2</span><h3 data-i18n="step2_title">Send proof</h3><p data-i18n="step2_copy">Message @xi_yh_bot with the product code and PayPal receipt screenshot or transaction email.</p></article>
+        <article class="card"><span class="step">3</span><h3 data-i18n="step3_title">Unlock</h3><p data-i18n="step3_copy">After confirmation, receive the ZIP password and use it with the encrypted download.</p></article>
       </div>
     </section>
 
     <section id="free" class="wrap section">
       <div class="section-head">
         <p class="eyebrow" data-i18n="free_label">free layer</p>
-        <h2 data-i18n="free_title">先给 GitHub 用户一点真东西。</h2>
-        <p data-i18n="free_copy">免费层必须能运行。否则开发者不会信后面的付费包。</p>
+        <h2 data-i18n="free_title">Try the free tools first.</h2>
+        <p data-i18n="free_copy">Developers should not have to trust a sales page. The repo includes runnable scripts and sample outputs.</p>
       </div>
       <div class="grid two">
-        <article class="card">
-          <span class="pill">repo_context_pack.py</span>
-          <h3 data-i18n="free_card1_title">仓库上下文打包</h3>
-          <p data-i18n="free_card1_copy">把代码、约束和忽略规则整理成 agent 更容易读的 brief，减少“看错文件”的概率。</p>
-        </article>
-        <article class="card">
-          <span class="pill">prompt_regression.py</span>
-          <h3 data-i18n="free_card2_title">提示词回归检查</h3>
-          <p data-i18n="free_card2_copy">用 YAML 维护失败用例，改 prompt 前后都能跑一遍，不靠感觉判断变好了没有。</p>
-        </article>
+        <article class="card"><span class="pill">repo_context_pack.py</span><h3 data-i18n="free_card1_title">Repo context packing</h3><p data-i18n="free_card1_copy">Package code, constraints, and ignore rules into a cleaner agent brief.</p></article>
+        <article class="card"><span class="pill">prompt_regression.py</span><h3 data-i18n="free_card2_title">Prompt regression checks</h3><p data-i18n="free_card2_copy">Keep failure cases in YAML and run a simple report before changing prompts.</p></article>
       </div>
     </section>
 
-    <section id="products" class="wrap section">
+    <section class="wrap section">
       <div class="section-head">
-        <p class="eyebrow" data-i18n="products_label">paid packs</p>
-        <h2 data-i18n="products_title">面向 GitHub 用户和技术大牛的 5 个付费产品。</h2>
-        <p data-i18n="products_copy">产品故意做小。一个包解决一个工程化问题，买家拿到后当天能用。</p>
+        <p class="eyebrow" data-i18n="other_label">other packs</p>
+        <h2 data-i18n="other_title">Other packs are available by manual request.</h2>
+        <p data-i18n="other_copy">To avoid wrong-product payments, only AI-DEVOPS-PRO has a direct PayPal link right now. Ask on Telegram if you want another pack.</p>
       </div>
-      <div class="product-grid">
-        <article class="product-card featured">
-          <div class="product-top"><span class="pill">AI-DEVOPS-PRO</span><strong>$4.9 / ¥29.9</strong></div>
-          <h3>AI DevOps Pro Pack</h3>
-          <p data-i18n="p1">给日常使用 coding agent 的开发者：整理仓库上下文、审查输出、做提示词回归。</p>
-          <div class="product-actions"><a class="pay-link" href="https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL">PayPal $4.90</a><a href="downloads/AI-DEVOPS-PRO_paid_encrypted.zip" data-i18n="download_zip">下载加密包</a></div>
-        </article>
-        <article class="product-card">
-          <div class="product-top"><span class="pill">CR-AGENT-PRO</span><strong>$5.9 / ¥39.9</strong></div>
-          <h3>Code Review Agent Pro</h3>
-          <p data-i18n="p2">给资深工程师的代码审查包：不看“像不像对”，只追风险、边界和可回滚性。</p>
-          <a href="downloads/CR-AGENT-PRO_paid_encrypted.zip" data-i18n="download_zip">下载加密包</a>
-        </article>
-        <article class="product-card">
-          <div class="product-top"><span class="pill">AGENT-DEBUG-PRO</span><strong>$6.9 / ¥49.9</strong></div>
-          <h3>Agent Debugging War Room</h3>
-          <p data-i18n="p3">给会折腾 agent 的技术用户：定位跑偏、循环、误改、测试假绿和上下文污染。</p>
-          <a href="downloads/AGENT-DEBUG-PRO_paid_encrypted.zip" data-i18n="download_zip">下载加密包</a>
-        </article>
-        <article class="product-card">
-          <div class="product-top"><span class="pill">CONTEXT-ENGINEERING-PRO</span><strong>$8.9 / ¥59.9</strong></div>
-          <h3>Repo Context Engineering Pro</h3>
-          <p data-i18n="p4">给真正关心上下文质量的人：把仓库、约束、任务和验证路径打包给 agent。</p>
-          <a href="downloads/CONTEXT-ENGINEERING-PRO_paid_encrypted.zip" data-i18n="download_zip">下载加密包</a>
-        </article>
-        <article class="product-card">
-          <div class="product-top"><span class="pill">PROMPT-REGRESSION-PRO</span><strong>$9.9 / ¥69.9</strong></div>
-          <h3>Prompt Regression Test Suite</h3>
-          <p data-i18n="p5">给写提示词和 agent workflow 的人：别凭感觉改 prompt，用用例和检查表卡住退化。</p>
-          <a href="downloads/PROMPT-REGRESSION-PRO_paid_encrypted.zip" data-i18n="download_zip">下载加密包</a>
-        </article>
+      <div class="product-grid small-products">
+        <article class="product-card"><div class="product-top"><span class="pill">CR-AGENT-PRO</span><strong>$5.90</strong></div><h3>Code Review Agent Pro</h3><a href="https://t.me/xi_yh_bot">Request payment link</a></article>
+        <article class="product-card"><div class="product-top"><span class="pill">AGENT-DEBUG-PRO</span><strong>$6.90</strong></div><h3>Agent Debugging War Room</h3><a href="https://t.me/xi_yh_bot">Request payment link</a></article>
+        <article class="product-card"><div class="product-top"><span class="pill">CONTEXT-ENGINEERING-PRO</span><strong>$8.90</strong></div><h3>Repo Context Engineering Pro</h3><a href="https://t.me/xi_yh_bot">Request payment link</a></article>
+        <article class="product-card"><div class="product-top"><span class="pill">PROMPT-REGRESSION-PRO</span><strong>$9.90</strong></div><h3>Prompt Regression Test Suite</h3><a href="https://t.me/xi_yh_bot">Request payment link</a></article>
       </div>
-    </section>
-
-    <section id="github" class="wrap section">
-      <div class="section-head">
-        <p class="eyebrow" data-i18n="github_label">GitHub native marketing</p>
-        <h2 data-i18n="github_title">宣传也放在 GitHub 里做。</h2>
-        <p data-i18n="github_copy">README 负责解释价值，Issues 负责收集需求，docs 负责承接搜索，release notes 负责让仓库看起来像一个在维护的项目。</p>
-      </div>
-      <div class="grid three">
-        <article class="card"><h3 data-i18n="gh1_title">README 当落地页</h3><p data-i18n="gh1_copy">第一页就说清楚免费工具、付费包、价格和交付方式。</p></article>
-        <article class="card"><h3 data-i18n="gh2_title">Issue 模板当需求入口</h3><p data-i18n="gh2_copy">让用户提交“想要什么包”和“agent 卡在哪里”。这比硬广自然。</p></article>
-        <article class="card"><h3 data-i18n="gh3_title">docs 做长尾搜索</h3><p data-i18n="gh3_copy">围绕 repo context、agent debugging、prompt regression 写短文，吸引真正懂的人。</p></article>
-      </div>
-    </section>
-
-    <section class="wrap section buy">
-      <div>
-        <p class="eyebrow" data-i18n="buy_label">delivery</p>
-        <h2 data-i18n="buy_title">购买方式很简单，但不假装全自动。</h2>
-        <p data-i18n="buy_copy">GitHub Pages is static, so checkout is manual for now. Download the encrypted ZIP, then message @xi_yh_bot with the product code. International buyers can pay for AI-DEVOPS-PRO with PayPal now. For other packs, message @xi_yh_bot; China buyers can use the QR code if supported.</p>
-        <a class="button primary" href="https://t.me/xi_yh_bot">@xi_yh_bot</a>
-      </div>
-      <figure class="payment-card">
-        <img src="assets/payment-qr.jpg" alt="Payment QR code" />
-        <figcaption data-i18n="payment_caption">QR for China. International buyers: message Telegram first.</figcaption>
-      </figure>
     </section>
   </main>
 
   <footer class="footer wrap">
     <span>AI DevOps Kit</span>
-    <a href="pro-preview/README.md" data-i18n="footer_preview">付费包预览</a>
     <a href="payment.html" data-i18n="footer_payment">Payment</a>
-    <a href="contact.html" data-i18n="footer_contact">交付说明</a>
+    <a href="payment-success.html" data-i18n="footer_success">After payment</a>
+    <a href="contact.html" data-i18n="footer_contact">Delivery</a>
     <a href="docs/order-guide.md">Order guide</a>
   </footer>
 

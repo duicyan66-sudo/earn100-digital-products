@@ -3,3 +3,7 @@
 .product-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .pay-link{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;background:#0f172a;color:#fff!important;padding:10px 14px;text-decoration:none;font-weight:600}
 .pay-link:hover{transform:translateY(-1px)}
+
+
+/* Checkout flow polish */
+.narrow{max-width:920px}.page-title{font-size:clamp(40px,6vw,68px);letter-spacing:-3px;line-height:1;margin:0 0 24px}.left{margin-left:0!important}.microcopy{margin:18px auto 0;color:#525252;font-size:15px;line-height:1.7}.microcopy code{font-family:"Geist Mono",monospace;background:#f5f5f5;padding:2px 5px;border-radius:5px}.checkout-card{max-width:880px;margin:0 auto 28px}.clean-list{padding-left:18px;color:#4d4d4d;line-height:1.75}.step-grid{margin-top:24px}.step{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:999px;background:#171717;color:#fff;font-family:"Geist Mono",monospace;font-size:13px;margin-bottom:10px}.small-products .product-card{min-height:170px}.success-card pre{white-space:pre-wrap}@media(max-width:760px){.nav{display:none}.hero-actions,.product-actions{align-items:stretch}.button,.pay-link{width:100%;justify-content:center}.product-top{gap:8px}}
