@@ -1,0 +1,52 @@
+[
+  {
+    "code": "AI-DEVOPS-PRO",
+    "name_en": "AI DevOps Pro Pack",
+    "name_zh": "AI DevOps Pro Pack",
+    "price": "¥29.9",
+    "audience": "developers",
+    "line_en": "A working kit for repo context, agent review, and prompt regression.",
+    "line_zh": "给日常使用 coding agent 的开发者：整理仓库上下文、审查输出、做提示词回归。",
+    "zip": "downloads/AI-DEVOPS-PRO_paid_encrypted.zip"
+  },
+  {
+    "code": "CR-AGENT-PRO",
+    "name_en": "Code Review Agent Pro",
+    "name_zh": "Code Review Agent Pro",
+    "price": "¥39.9",
+    "audience": "senior",
+    "line_en": "A stricter review system for senior engineers who do not trust pretty diffs.",
+    "line_zh": "给资深工程师的代码审查包：不看“像不像对”，只追风险、边界和可回滚性。",
+    "zip": "downloads/CR-AGENT-PRO_paid_encrypted.zip"
+  },
+  {
+    "code": "AGENT-DEBUG-PRO",
+    "name_en": "Agent Debugging War Room",
+    "name_zh": "Agent Debugging War Room",
+    "price": "¥49.9",
+    "audience": "senior",
+    "line_en": "For teams debugging Claude Code, Codex, Cursor, OpenCode, and weird agent loops.",
+    "line_zh": "给会折腾 agent 的技术用户：定位跑偏、循环、误改、测试假绿和上下文污染。",
+    "zip": "downloads/AGENT-DEBUG-PRO_paid_encrypted.zip"
+  },
+  {
+    "code": "CONTEXT-ENGINEERING-PRO",
+    "name_en": "Repo Context Engineering Pro",
+    "name_zh": "Repo Context Engineering Pro",
+    "price": "¥59.9",
+    "audience": "senior",
+    "line_en": "A context design kit for people who care what goes into the model before code comes out.",
+    "line_zh": "给真正关心上下文质量的人：把仓库、约束、任务和验证路径打包给 agent。",
+    "zip": "downloads/CONTEXT-ENGINEERING-PRO_paid_encrypted.zip"
+  },
+  {
+    "code": "PROMPT-REGRESSION-PRO",
+    "name_en": "Prompt Regression Test Suite",
+    "name_zh": "Prompt Regression Test Suite",
+    "price": "¥69.9",
+    "audience": "developers",
+    "line_en": "A lightweight way to stop prompt changes from silently making agents worse.",
+    "line_zh": "给写提示词和 agent workflow 的人：别凭感觉改 prompt，用用例和检查表卡住退化。",
+    "zip": "downloads/PROMPT-REGRESSION-PRO_paid_encrypted.zip"
+  }
+]

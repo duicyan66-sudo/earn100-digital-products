@@ -1,0 +1,17 @@
+name: Agent failure report
+description: Share a coding agent failure this repo should help prevent
+title: "Agent failure: "
+labels: ["agent-failure"]
+body:
+  - type: textarea
+    id: failure
+    attributes:
+      label: What went wrong?
+      description: Keep it concrete. Wrong file, wrong test, wrong assumption, bad review, loop, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: What proved it was wrong?
+      description: Test output, review note, production symptom, or a smaller reproduction.

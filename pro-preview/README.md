@@ -1,18 +1,48 @@
-# Pro Pack preview
+# Paid packs preview
 
-The paid Pro Pack is not a random prompt dump. It is a structured operating kit for AI-assisted development.
+These are paid packs. The zip files are public, but encrypted. After payment, send the product code and payment screenshot to Telegram `@xi_yh_bot`.
 
-Included in the paid version:
 
-1. 20 senior code review prompts by risk area
-2. 12 agent debugging playbooks
-3. Prompt regression case library
-4. PR review checklist templates
-5. GitHub issue templates for AI-agent bugs
-6. Release-readiness checklist
-7. Agent handoff templates
-8. Repo context pack tuning guide
-9. Marketing copy for launching developer tools
-10. Buyer support and delivery scripts
+## AI-DEVOPS-PRO · AI DevOps Pro Pack · ¥29.9
 
-The public repo contains enough free material to judge the style and usefulness. The paid pack is for people who want the full set without building it from scratch.
+A working kit for repo context, agent review, and prompt regression.
+
+中文：给日常使用 coding agent 的开发者：整理仓库上下文、审查输出、做提示词回归。
+
+Download: `downloads/AI-DEVOPS-PRO_paid_encrypted.zip`
+
+
+## CR-AGENT-PRO · Code Review Agent Pro · ¥39.9
+
+A stricter review system for senior engineers who do not trust pretty diffs.
+
+中文：给资深工程师的代码审查包：不看“像不像对”，只追风险、边界和可回滚性。
+
+Download: `downloads/CR-AGENT-PRO_paid_encrypted.zip`
+
+
+## AGENT-DEBUG-PRO · Agent Debugging War Room · ¥49.9
+
+For teams debugging Claude Code, Codex, Cursor, OpenCode, and weird agent loops.
+
+中文：给会折腾 agent 的技术用户：定位跑偏、循环、误改、测试假绿和上下文污染。
+
+Download: `downloads/AGENT-DEBUG-PRO_paid_encrypted.zip`
+
+
+## CONTEXT-ENGINEERING-PRO · Repo Context Engineering Pro · ¥59.9
+
+A context design kit for people who care what goes into the model before code comes out.
+
+中文：给真正关心上下文质量的人：把仓库、约束、任务和验证路径打包给 agent。
+
+Download: `downloads/CONTEXT-ENGINEERING-PRO_paid_encrypted.zip`
+
+
+## PROMPT-REGRESSION-PRO · Prompt Regression Test Suite · ¥69.9
+
+A lightweight way to stop prompt changes from silently making agents worse.
+
+中文：给写提示词和 agent workflow 的人：别凭感觉改 prompt，用用例和检查表卡住退化。
+
+Download: `downloads/PROMPT-REGRESSION-PRO_paid_encrypted.zip`

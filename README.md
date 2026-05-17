@@ -1,32 +1,35 @@
 # AI DevOps Kit
 
-A practical AI developer operations kit for coding-agent workflows.
+Small tools and paid packs for developers who use coding agents seriously.
 
-This repo is the free edition. It contains runnable utilities and prompts for developers using Claude Code, Codex, Cursor, OpenCode, or other coding agents in real repositories.
+The free repo gives you working scripts, prompts, workflow files, and examples. The paid packs go deeper: code review, agent debugging, repo context design, and prompt regression.
+
+中文：这是一个面向 GitHub 开发者的 AI 工程化工具包。免费部分可以直接 fork 和运行。付费包放在 `downloads/`，zip 已加密，付款后通过 Telegram 获取密码。
 
 ## Free tools
 
-- `tools/repo_context_pack.py` — generate an LLM-ready repository context pack
-- `tools/prompt_regression.py` — turn prompt behavior cases into a review checklist
-- `prompts/senior-code-review-agent.md` — staff-engineer style code review prompt
-- `prompts/agent-debugging-playbook.md` — debug failed agent runs systematically
-- `workflows/agent-quality-gate.yml` — GitHub Actions starter workflow
+- `tools/repo_context_pack.py` packages a repo into a cleaner context file for coding agents.
+- `tools/prompt_regression.py` turns prompt cases into a review report.
 
-## Quick start
+## Paid packs
+
+| code | pack | price | for |
+|---|---:|---:|---|
+| AI-DEVOPS-PRO | AI DevOps Pro Pack | ¥29.9 | developers using coding agents |
+| CR-AGENT-PRO | Code Review Agent Pro | ¥39.9 | senior reviewers |
+| AGENT-DEBUG-PRO | Agent Debugging War Room | ¥49.9 | agent-heavy teams |
+| CONTEXT-ENGINEERING-PRO | Repo Context Engineering Pro | ¥59.9 | staff engineers and tool builders |
+| PROMPT-REGRESSION-PRO | Prompt Regression Test Suite | ¥69.9 | prompt/workflow maintainers |
+
+Payment and delivery: download the encrypted zip, pay from the site, then send the product code and payment screenshot to Telegram `@xi_yh_bot`.
+
+## Run the free tools
 
 ```bash
 python tools/repo_context_pack.py --root . --out repo-context.md
 python tools/prompt_regression.py examples/prompt-cases.yml --out prompt-report.md
 ```
 
-## Pro Pack
+## GitHub launch notes
 
-The Pro Pack contains deeper review prompts, agent failure playbooks, prompt regression cases, launch copy, and operating checklists.
-
-Landing page: https://duicyan66-sudo.github.io/earn100-digital-products/
-
-Contact after payment: https://t.me/xi_yh_bot
-
-## Philosophy
-
-Coding agents are useful, but only when the workflow around them is disciplined: context in, constraints in, review out, verification before claims. This kit is designed around that loop.
+This repository is the storefront, the proof, and the support desk. Use Issues for questions and product requests. The paid packs are small, practical, and meant to save time on real agent workflows, not to impress anyone with buzzwords.

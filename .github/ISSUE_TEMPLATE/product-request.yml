@@ -1,0 +1,22 @@
+name: Paid pack request
+description: Suggest a new AI DevOps Kit paid pack
+title: "Pack request: "
+labels: ["product-request"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What agent workflow keeps hurting?
+      description: Describe the repeated failure, not the dream feature.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What do you use now?
+      description: Prompts, scripts, review habits, docs, anything.
+  - type: input
+    id: buyer
+    attributes:
+      label: Who would pay for this?
+      placeholder: solo dev, senior reviewer, infra team, prompt maintainer
