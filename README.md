@@ -16,7 +16,7 @@ Current smooth checkout path:
 
 1. Buy `AI-DEVOPS-PRO` with PayPal: https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL
 2. Download the encrypted ZIP: `downloads/AI-DEVOPS-PRO_paid_encrypted.zip`
-3. Send PayPal receipt + product code `AI-DEVOPS-PRO` to [@xi_yh_bot](https://t.me/xi_yh_bot)
+3. Send PayPal receipt + product code `AI-DEVOPS-PRO` to [@xi_yh_bot](https://t.me/xi_yh_bot), or email qq466886@126.com
 4. Receive the ZIP password after confirmation, usually within 12 hours.
 
 Other packs are available by manual request until each has a separate PayPal link. This avoids wrong-product payments.

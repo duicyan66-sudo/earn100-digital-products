@@ -6,7 +6,7 @@ GitHub Pages cannot verify PayPal payments automatically, so delivery is manual 
 
 1. Pay with PayPal: https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL
 2. Download the encrypted file: `https://duicyan66-sudo.github.io/earn100-digital-products/downloads/AI-DEVOPS-PRO_paid_encrypted.zip`
-3. Message Telegram: [@xi_yh_bot](https://t.me/xi_yh_bot)
+3. Message Telegram: [@xi_yh_bot](https://t.me/xi_yh_bot), or email: qq466886@126.com
 4. Send this:
 
 ```text
@@ -15,7 +15,7 @@ PayPal receipt: attached
 Please send the ZIP password.
 ```
 
-Typical delivery window: within 12 hours after receipt confirmation.
+Typical delivery window: within 12 hours after receipt confirmation. If you do not use Telegram, email the receipt and product code to qq466886@126.com.
 
 ## Product codes
 
