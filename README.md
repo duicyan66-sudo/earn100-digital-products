@@ -15,13 +15,13 @@ The free repo gives you working scripts, prompts, workflow files, and examples. 
 
 | code | pack | price | for |
 |---|---:|---:|---|
-| AI-DEVOPS-PRO | AI DevOps Pro Pack | ¥29.9 | developers using coding agents |
-| CR-AGENT-PRO | Code Review Agent Pro | ¥39.9 | senior reviewers |
-| AGENT-DEBUG-PRO | Agent Debugging War Room | ¥49.9 | agent-heavy teams |
-| CONTEXT-ENGINEERING-PRO | Repo Context Engineering Pro | ¥59.9 | staff engineers and tool builders |
-| PROMPT-REGRESSION-PRO | Prompt Regression Test Suite | ¥69.9 | prompt/workflow maintainers |
+| AI-DEVOPS-PRO | AI DevOps Pro Pack | $4.9 / ¥29.9 | developers using coding agents |
+| CR-AGENT-PRO | Code Review Agent Pro | $5.9 / ¥39.9 | senior reviewers |
+| AGENT-DEBUG-PRO | Agent Debugging War Room | $6.9 / ¥49.9 | agent-heavy teams |
+| CONTEXT-ENGINEERING-PRO | Repo Context Engineering Pro | $8.9 / ¥59.9 | staff engineers and tool builders |
+| PROMPT-REGRESSION-PRO | Prompt Regression Test Suite | $9.9 / ¥69.9 | prompt/workflow maintainers |
 
-Payment and delivery: download the encrypted zip, pay from the site, then send the product code and payment screenshot to Telegram `@xi_yh_bot`.
+Payment and delivery: download the encrypted zip, then pay. If you can use the QR code on the site, use it. If you are outside China, message Telegram `@xi_yh_bot` for PayPal, Wise, or another available payment method. After payment, send the product code and receipt/screenshot. The password is sent after confirmation.
 
 ## Run the free tools
 
