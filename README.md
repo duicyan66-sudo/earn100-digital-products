@@ -1,34 +1,32 @@
-# AI 资料包 GitHub Pages 销售页
+# AI DevOps Kit
 
-这是一个可直接部署到 GitHub Pages 的静态销售页。
+A practical AI developer operations kit for coding-agent workflows.
 
-## 文件
+This repo is the free edition. It contains runnable utilities and prompts for developers using Claude Code, Codex, Cursor, OpenCode, or other coding agents in real repositories.
 
-- `index.html`：销售落地页
-- `style.css`：页面样式
-- `assets/payment-qr.jpg`：收款二维码
-- `samples/free-sample.md`：免费样例
-- `downloads/*_paid_encrypted.zip`：加密交付包
+## Free tools
 
-## 重要
+- `tools/repo_context_pack.py` — generate an LLM-ready repository context pack
+- `tools/prompt_regression.py` — turn prompt behavior cases into a review checklist
+- `prompts/senior-code-review-agent.md` — staff-engineer style code review prompt
+- `prompts/agent-debugging-playbook.md` — debug failed agent runs systematically
+- `workflows/agent-quality-gate.yml` — GitHub Actions starter workflow
 
-解压密码没有放在仓库里，保存在本机：
-
-`/root/earn100_github_pages_PASSWORDS_PRIVATE.txt`
-
-不要把这个文件上传到 GitHub。
-
-## GitHub Pages 部署
-
-如果已经有 GitHub 权限：
+## Quick start
 
 ```bash
-cd /root/earn100-github-pages
-git init
-git add .
-git commit -m "Launch digital product landing page"
-gh repo create earn100-digital-products --public --source . --push
-# GitHub 仓库设置 Pages：Deploy from branch / main / root
+python tools/repo_context_pack.py --root . --out repo-context.md
+python tools/prompt_regression.py examples/prompt-cases.yml --out prompt-report.md
 ```
 
-当前环境没有检测到 GitHub 登录，所以我已经先把网站文件完整生成在本地。
+## Pro Pack
+
+The Pro Pack contains deeper review prompts, agent failure playbooks, prompt regression cases, launch copy, and operating checklists.
+
+Landing page: https://duicyan66-sudo.github.io/earn100-digital-products/
+
+Contact after payment: https://t.me/xi_yh_bot
+
+## Philosophy
+
+Coding agents are useful, but only when the workflow around them is disciplined: context in, constraints in, review out, verification before claims. This kit is designed around that loop.

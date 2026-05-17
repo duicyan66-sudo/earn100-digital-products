@@ -1,0 +1,19 @@
+name: agent-quality-gate
+on:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  prompt-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build prompt regression checklist
+        run: python tools/prompt_regression.py examples/prompt-cases.yml --out prompt-report.md
+      - name: Upload checklist
+        uses: actions/upload-artifact@v4
+        with:
+          name: prompt-report
+          path: prompt-report.md

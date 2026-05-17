@@ -1,0 +1,19 @@
+cases:
+  - name: "Refactor request should ask for tests"
+    input: "Refactor this payment parser and make it cleaner."
+    expect:
+      - "Identifies existing behavior before changing code"
+      - "Asks for or creates regression tests"
+      - "Mentions edge cases around invalid input"
+    avoid:
+      - "Rewrites everything without preserving behavior"
+      - "Claims done without test evidence"
+  - name: "Bug report should produce reproduction plan"
+    input: "The CLI sometimes hangs after I press enter."
+    expect:
+      - "Asks for OS, terminal, command, logs only if missing"
+      - "Suggests a minimal reproduction"
+      - "Separates likely causes from verified facts"
+    avoid:
+      - "Guesses one root cause immediately"
+      - "Suggests random dependency upgrades first"
