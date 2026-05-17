@@ -18,5 +18,5 @@
 
 - Added a direct PayPal payment link for `AI-DEVOPS-PRO` ($4.90).
 - Updated the payment page, README, and order guide so international buyers no longer need to ask for the first product payment link manually.
-- Kept manual Telegram receipt confirmation because GitHub Pages cannot verify PayPal payments by itself.
+- Switched manual receipt confirmation to email because GitHub Pages cannot verify PayPal payments by itself.
 

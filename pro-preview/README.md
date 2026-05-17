@@ -1,6 +1,6 @@
 # Paid packs preview
 
-These are paid packs. The zip files are public, but encrypted. After payment, send the product code and payment screenshot to Telegram `@xi_yh_bot`.
+These are paid packs. The zip files are public, but encrypted. After payment, email the product code and payment receipt to `qq466886@126.com`.
 
 
 ## AI-DEVOPS-PRO · AI DevOps Pro Pack · ¥29.9

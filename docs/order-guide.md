@@ -6,7 +6,7 @@ GitHub Pages cannot verify PayPal payments automatically, so delivery is manual 
 
 1. Pay with PayPal: https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL
 2. Download the encrypted file: `https://duicyan66-sudo.github.io/earn100-digital-products/downloads/AI-DEVOPS-PRO_paid_encrypted.zip`
-3. Message Telegram: [@xi_yh_bot](https://t.me/xi_yh_bot), or email: qq466886@126.com
+3. Email: qq466886@126.com
 4. Send this:
 
 ```text
@@ -15,15 +15,15 @@ PayPal receipt: attached
 Please send the ZIP password.
 ```
 
-Typical delivery window: within 12 hours after receipt confirmation. If you do not use Telegram, email the receipt and product code to qq466886@126.com.
+Typical delivery window: within 12 hours after receipt confirmation. Email the receipt and product code to qq466886@126.com.
 
 ## Product codes
 
 - `AI-DEVOPS-PRO` - $4.90 - direct PayPal checkout available
-- `CR-AGENT-PRO` - $5.90 - request payment link on Telegram
-- `AGENT-DEBUG-PRO` - $6.90 - request payment link on Telegram
-- `CONTEXT-ENGINEERING-PRO` - $8.90 - request payment link on Telegram
-- `PROMPT-REGRESSION-PRO` - $9.90 - request payment link on Telegram
+- `CR-AGENT-PRO` - $5.90 - request payment link on email
+- `AGENT-DEBUG-PRO` - $6.90 - request payment link on email
+- `CONTEXT-ENGINEERING-PRO` - $8.90 - request payment link on email
+- `PROMPT-REGRESSION-PRO` - $9.90 - request payment link on email
 
 ## Why only one direct PayPal link right now?
 

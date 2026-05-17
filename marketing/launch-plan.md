@@ -43,6 +43,6 @@ Day 7: Soft-sell Pro Pack with changelog.
 
 - GitHub stars
 - Page visits if analytics later added
-- Telegram inquiries to @xi_yh_bot
+- Email inquiries to qq466886@126.com
 - Downloads of encrypted Pro Pack
 - Questions/objections from developers
