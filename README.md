@@ -35,9 +35,9 @@ What you get for free:
 | CONTEXT-ENGINEERING-PRO | Repo Context Engineering Pro | $8.9 / ¥59.9 | staff engineers and tool builders |
 | PROMPT-REGRESSION-PRO | Prompt Regression Test Suite | $9.9 / ¥69.9 | prompt and workflow maintainers |
 
-Each paid zip is encrypted. Download the zip first, then pay and send the product code plus receipt to [@xi_yh_bot](https://t.me/xi_yh_bot). The unzip password is sent after confirmation.
+Each paid zip is encrypted. For `AI-DEVOPS-PRO`, international buyers can pay directly with PayPal: https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL. After payment, send the product code and receipt to [@xi_yh_bot](https://t.me/xi_yh_bot). The unzip password is sent after confirmation.
 
-International buyers should message [@xi_yh_bot](https://t.me/xi_yh_bot) for PayPal, Wise, or another available payment method. China buyers can use the QR code on the site if their payment app supports it.
+For the other packs, message [@xi_yh_bot](https://t.me/xi_yh_bot) for PayPal, Wise, or another available payment method. China buyers can use the QR code on the site if their payment app supports it.
 
 ## Why this exists
 

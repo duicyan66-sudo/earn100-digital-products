@@ -2,13 +2,17 @@
 
 GitHub Pages cannot verify payments. The current checkout is manual on purpose.
 
-## International buyer message
+## International buyer payment
 
-Send this to Telegram: [@xi_yh_bot](https://t.me/xi_yh_bot)
+For `AI-DEVOPS-PRO`, pay here first:
+
+https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL
+
+Then send the receipt to Telegram: [@xi_yh_bot](https://t.me/xi_yh_bot)
 
 ```text
 Hi, I want to buy: <PRODUCT_CODE>
-Payment method: PayPal / Wise / other
+Payment link: https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL
 GitHub repo: https://github.com/duicyan66-sudo/earn100-digital-products
 ```
 
