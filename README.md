@@ -8,7 +8,7 @@ Coding agents fail in boring ways: they miss the right file, trust a pretty diff
 
 This repo gives away the basic workflow. The paid pack is for people who want the checklists, rubrics, and playbooks already packaged.
 
-中文：这是一个面向 GitHub 开发者的 AI 工程化工具包。免费部分可以直接 fork 和运行。`AI-DEVOPS-PRO` 已有 PayPal 付款链接；付费 zip 已加密，付款后通过邮箱获取密码。
+中文：这是一个面向 GitHub 开发者的 AI 工程化工具包。免费部分可以直接 fork 和运行。`AI-DEVOPS-PRO` 已有 PayPal 付款链接；付费 zip 已加密，付款后通过 Telegram 获取密码。
 
 ## Fast purchase
 
@@ -16,7 +16,7 @@ Current smooth checkout path:
 
 1. Buy `AI-DEVOPS-PRO` with PayPal: https://www.paypal.com/ncp/payment/QXZK7CPVEXCHL
 2. Download the encrypted ZIP: `downloads/AI-DEVOPS-PRO_paid_encrypted.zip`
-3. Email PayPal receipt + product code `AI-DEVOPS-PRO` to qq466886@126.com
+3. Send PayPal receipt + product code `AI-DEVOPS-PRO` to [@xl_yh_bot](https://t.me/xl_yh_bot), or email qq466886@126.com
 4. Receive the ZIP password after confirmation, usually within 12 hours.
 
 Other packs are available by manual request until each has a separate PayPal link. This avoids wrong-product payments.

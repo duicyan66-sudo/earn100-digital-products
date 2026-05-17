@@ -72,7 +72,7 @@ Small tools and paid packs for developers who use coding agents seriously.
 
 The free repo gives you working scripts, prompts, workflow files, and examples. The paid packs go deeper: code review, agent debugging, repo context design, and prompt regression.
 
-中文：这是一个面向 GitHub 开发者的 AI 工程化工具包。免费部分可以直接 fork 和运行。付费包放在 `downloads/`，zip 已加密，付款后通过邮箱获取密码。
+中文：这是一个面向 GitHub 开发者的 AI 工程化工具包。免费部分可以直接 fork 和运行。付费包放在 `downloads/`，zip 已加密，付款后通过 Telegram 获取密码。
 
 ## Free tools
 
